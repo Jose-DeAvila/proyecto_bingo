@@ -108,7 +108,7 @@ function verificar_ganador(){
         let carr = Math.trunc(i/4);
         let numero = document.querySelector(`.no${carr}`);
         numero.classList.add('tachado');
-        alert(`Ha ganado el jugador No.${carr}`);
+        alert(`Ha ganado el jugador No.${carr}. Felicitaciones!.`);
         detenerPlay();
         break;
       }   
